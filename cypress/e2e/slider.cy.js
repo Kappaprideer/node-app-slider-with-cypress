@@ -31,7 +31,7 @@ describe('Swiper Gallery Test', function () {
 });
 
 describe('Swiper Gallery Test', function () {
-  it('Checks if slider can back from Rome to Paris first to last slide (P) gallery"', function () {
+  it('Checks if slider can back from Rome to Paris (first to last slide)"', function () {
     cy.visit('http://localhost:3000');
     cy.get('.swiper-slide-active').should('contain', 'Rome');
     cy.wait(2000);
